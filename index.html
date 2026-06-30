@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GiveLocally: Give what you have. Find what you need.</title>
+<meta name="description" content="GiveLocally is an app to donate furniture, clothes, food, toys, books and more to neighbours nearby. Free to give, free to browse. Available across India.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Top utility bar -->
+<div class="topbar">
+  <div class="container topbar__inner">
+    <div class="topbar__left">
+      <a href="#volunteer">Become a volunteer</a>
+      <a href="tel:+910001234">+91 (000) 1234</a>
+    </div>
+    <a href="mailto:hello@givelocally.in" class="topbar__right">hello@givelocally.in</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#top" class="logo">
+      <img src="assets/givelocally-logo.png" alt="GiveLocally" class="logo__img">
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#how-it-works">How it Works</a>
+      <a href="#categories">Categories</a>
+      <a href="#trust">Karma Rewards</a>
+      <a href="#community">Community</a>
+    </nav>
+    <a href="https://play.google.com/store/apps/details?id=org.givelocally.app&pcampaignid=web_share" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Download the App</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="container hero__inner">
+      <div class="hero__content">
+      <h1 class="hero__title" data-reveal>
+        It doesn't take much.<br>
+        <em>Just something <span class="hero__underline">you</span><br>already have.</em>
+      </h1>
+      <p class="hero__subtitle" data-reveal>
+        GiveLocally is an app where you can donate furniture,
+        clothes, food, toys, books and more to someone
+        in your city who actually needs it.
+      </p>
+      <div class="hero__perks" data-reveal>
+        <span class="hero__perk"><span class="hero__perk-icon">♡</span> Free to give.</span>
+        <span class="hero__perk-divider"></span>
+        <span class="hero__perk"><span class="hero__perk-icon">🎁</span> Free to browse.</span>
+      </div>
+      <div class="hero__ctas" data-reveal>
+        <a href="https://play.google.com/store/apps/details?id=org.givelocally.app&pcampaignid=web_share" target="_blank" rel="noopener" class="btn btn--store">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="#00C2FF" d="M3.6 2.3c-.4.2-.6.6-.6 1v17.4c0 .4.2.8.6 1l9.9-9.7-9.9-9.7z"/><path fill="#FFCD00" d="M3.6 2.3L13.5 12l3.4-2-9.9-8.7c-.4-.2-.9-.2-1.3 0z"/><path fill="#FF3D57" d="M3.6 21.7L13.5 12l3.4 2-9.9 8.7c-.4.2-.9.2-1.3 0z"/><path fill="#00E069" d="M16.9 9.5l3.5 2c.8.5.8 1.5 0 2l-3.5 2-3.4-3 3.4-3z"/></svg>
+          <span>
+            <small>GET IT ON</small>
+            <strong>Google Play</strong>
+          </span>
+        </a>
+        <a href="#download" class="btn btn--store btn--store-outline">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M16.7 1c.1 1.1-.3 2.2-1 3-.7.9-1.9 1.5-3 1.4-.1-1.1.4-2.2 1.1-3C14.5 1.5 15.6 1 16.7 1zM20.9 17.2c-.6 1.3-.9 1.9-1.6 3-1.1 1.6-2.6 3.6-4.5 3.6-1.7 0-2.1-1.1-4.4-1.1s-2.8 1.1-4.4 1.1c-1.9 0-3.3-1.8-4.4-3.4C-.5 16.9-.9 11 1.3 7.8c1.1-1.6 2.9-2.6 4.6-2.6 1.7 0 2.8 1.1 4.3 1.1 1.4 0 2.3-1.1 4.4-1.1 1.6 0 3.3.9 4.4 2.4-3.9 2.2-3.3 7.6 1.9 9.6z"/></svg>
+          <span>
+            <small>iOS</small>
+            <strong>Join the Waitlist</strong>
+          </span>
+        </a>
+      </div>
+      <p class="hero__note" data-reveal><span class="hero__note-icon">✓</span> Free to download. Free to give. ₹9 to claim.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="section problem">
+    <div class="container problem__inner">
+      <div class="problem__media" data-reveal>
+        <img src="assets/mobile-left.png" alt="GiveLocally app showing nearby donations" class="problem__phone-img">
+      </div>
+      <div class="problem__copy">
+        <span class="eyebrow" data-reveal>Why donations usually fail</span>
+        <h2 class="h2" data-reveal>Good things go to waste. Not because people don't want to give.</h2>
+        <p class="problem__lede" data-reveal>Because there was no easy way to.</p>
+        <p class="body-text" data-reveal>
+          GiveLocally bridges the gap between your surplus and your neighbour's need.
+          We built the accountability that community sharing was missing: verified pickups,
+          fair commitment fees, and a karma score that keeps everyone honest.
+        </p>
+        <div class="trust-chip" data-reveal>
+          <span class="trust-chip__icon">🛡️</span>
+          <div>
+            <strong>Verified Exchanges</strong>
+            <span>Every pickup is confirmed with a one-use OTP</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">Simple from both sides</span>
+        <h2 class="h2">How it works</h2>
+      </div>
+
+      <div class="how-it-works__grid">
+        <div class="how-col how-col--give" data-reveal>
+          <h3 class="how-col__title how-col__title--give">
+            <span class="how-col__icon">↑</span> For Givers
+          </h3>
+          <ol class="steps">
+            <li class="step">
+              <span class="step__num step__num--give">1</span>
+              <div><strong>List it in 2 minutes</strong><p>Add a photo, pick a category, set pickup window. Your item is live to nearby receivers instantly.</p></div>
+            </li>
+            <li class="step">
+              <span class="step__num step__num--give">2</span>
+              <div><strong>Get matched nearby</strong><p>Receivers who are serious pay ₹9 to commit. You see their karma score and pick the best match.</p></div>
+            </li>
+            <li class="step">
+              <span class="step__num step__num--give">3</span>
+              <div><strong>Hand it over with an OTP</strong><p>When they arrive, they enter a one-time pickup code. Exchange confirmed. Done.</p></div>
+            </li>
+          </ol>
+        </div>
+
+        <div class="how-divider" aria-hidden="true">
+          <span class="how-divider__node">⇄</span>
+        </div>
+
+        <div class="how-col how-col--receive" data-reveal>
+          <h3 class="how-col__title how-col__title--receive">
+            <span class="how-col__icon">↓</span> For Receivers
+          </h3>
+          <ol class="steps">
+            <li class="step">
+              <span class="step__num step__num--receive">1</span>
+              <div><strong>Browse what's near you</strong><p>See items available within your area. Filter by category. No account needed to look around.</p></div>
+            </li>
+            <li class="step">
+              <span class="step__num step__num--receive">2</span>
+              <div><strong>Commit with ₹9</strong><p>A small fee that tells the giver you're serious. Not a charge to keep, just proof you'll show up.</p></div>
+            </li>
+            <li class="step">
+              <span class="step__num step__num--receive">3</span>
+              <div><strong>Pick it up. Enter the OTP.</strong><p>Show up at the agreed time, enter the code, take it home. Your karma score goes up instantly.</p></div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="section categories" id="categories">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">What moves in our neighbourhood</span>
+        <h2 class="h2">If you no longer need it, it belongs here.</h2>
+        <p class="section-head__sub">Every item listed is a gift to someone nearby. Browse the most-needed categories in our community.</p>
+      </div>
+
+      <div class="category-grid">
+        <article class="cat-card" data-reveal>
+          <span class="cat-card__icon" style="background:#FBE7E1;">🛋️</span>
+          <h3>Furniture</h3>
+          <p>Sofas, tables, chairs, wardrobes and shelving looking for a new home.</p>
+        </article>
+        <article class="cat-card" data-reveal>
+          <span class="cat-card__badge">Most Needed</span>
+          <span class="cat-card__icon" style="background:#DFF3E6;">👕</span>
+          <h3>Clothes</h3>
+          <p>Formals, casuals, and winter wear for adults and children.</p>
+        </article>
+        <article class="cat-card" data-reveal>
+          <span class="cat-card__icon" style="background:#E1ECFB;">🧸</span>
+          <h3>Kids Toys</h3>
+          <p>Cycles, board games, and soft toys to bring joy to a child.</p>
+        </article>
+        <article class="cat-card" data-reveal>
+          <span class="cat-card__icon" style="background:#FBE1E7;">🔌</span>
+          <h3>Appliances</h3>
+          <p>Fans, mixers, TVs, and water purifiers in working condition.</p>
+        </article>
+        <article class="cat-card" data-reveal>
+          <span class="cat-card__icon" style="background:#FBF3D9;">📚</span>
+          <h3>Books</h3>
+          <p>Textbooks, novels, and exam-prep materials for local students.</p>
+        </article>
+        <article class="cat-card" data-reveal>
+          <span class="cat-card__badge cat-card__badge--urgent">Urgent</span>
+          <span class="cat-card__icon" style="background:#F1E3FB;">🍱</span>
+          <h3>Food</h3>
+          <p>Cooked meals or sealed groceries to help a neighbour today.</p>
+        </article>
+      </div>
+
+      <a href="#community" class="banner-card" data-reveal>
+        <span class="banner-card__icon">🩸</span>
+        <div class="banner-card__copy">
+          <strong>Community Blood Support</strong>
+          <p>A vital community service. Request or offer blood donation within your immediate city circle.</p>
+        </div>
+        <span class="btn btn--light btn--sm">Get Help Now</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- TRUST -->
+  <section class="section trust" id="trust">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">How we keep it honest</span>
+        <h2 class="h2">Your kindness deserves a guarantee.</h2>
+        <p class="section-head__sub">Giving should work. So we made sure it does.</p>
+        <span class="pill pill--success" data-reveal>No more "they said you but never showed."</span>
+      </div>
+
+      <div class="trust-grid">
+        <article class="trust-card" data-reveal>
+          <span class="trust-card__num">01</span>
+          <span class="trust-card__icon" style="color:#4D9F3C;">₹</span>
+          <h3>₹9 Receiver Commitment</h3>
+          <p>Anyone claiming an item pays ₹9 first. Real intent to follow through, or pay to filter out the people who never show.</p>
+          <span class="trust-card__tag">Via Razorpay</span>
+        </article>
+        <article class="trust-card" data-reveal>
+          <span class="trust-card__num">02</span>
+          <span class="trust-card__icon" style="color:#2E7D5B;">🔑</span>
+          <h3>OTP Pickup Code</h3>
+          <p>Every exchange gets a one-time code. The giver confirms it when the receiver arrives. No code, no confirmation.</p>
+          <span class="trust-card__tag">Tamper-proof</span>
+        </article>
+        <article class="trust-card" data-reveal>
+          <span class="trust-card__num">03</span>
+          <span class="trust-card__icon" style="color:#B8860B;">★</span>
+          <h3>Karma Score</h3>
+          <p>Every successful exchange builds your score. Reliable people rise to the top. Bad actors lose karma and visibility fast.</p>
+          <span class="trust-card__tag">Build your karma</span>
+        </article>
+        <article class="trust-card" data-reveal>
+          <span class="trust-card__num">04</span>
+          <span class="trust-card__icon" style="color:#6A4FB0;">⚖️</span>
+          <h3>Dispute Support</h3>
+          <p>Something went sideways? Raise it in-app. Our team looks into every report, not just generic templated replies.</p>
+          <span class="trust-card__tag">Human review</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMUNITY -->
+  <section class="section community" id="community">
+    <div class="container community__inner">
+
+      <div class="community__copy">
+        <span class="eyebrow eyebrow--light" data-reveal>Bigger than one tree</span>
+        <h2 class="h2 h2--light" data-reveal>What if your whole building gave together?</h2>
+        <p class="community__sub" data-reveal>
+          GiveLocally lets you create donation drives and cleaning events for your apartment
+          complex, office, or neighbourhood, anywhere in India.
+        </p>
+        <a href="#download" class="btn btn--light btn--lg" data-reveal>Bring it to your building</a>
+        <p class="community__footnote" data-reveal>Open to individuals, housing societies, offices, and NGOs. Just ₹49 flat platform fee per event.</p>
+      </div>
+
+      <div class="community__visual" data-reveal>
+        <div class="event-card">
+          <div class="event-card__head">
+            <span class="event-card__icon">🏢</span>
+            <div>
+              <strong>Sunrise Heights Society</strong>
+              <span>Diwali Donation Drive</span>
+            </div>
+            <span class="event-card__live">● Live</span>
+          </div>
+          <div class="event-card__avatars">
+            <span class="avatar avatar--1">RA</span>
+            <span class="avatar avatar--2">PK</span>
+            <span class="avatar avatar--3">SN</span>
+            <span class="avatar avatar--4">MJ</span>
+            <span class="avatar avatar--more">+38</span>
+          </div>
+          <div class="event-card__stats">
+            <div class="event-stat">
+              <strong>42</strong>
+              <span>Donors joined</span>
+            </div>
+            <div class="event-stat">
+              <strong>₹49</strong>
+              <span>Flat platform fee</span>
+            </div>
+            <div class="event-stat">
+              <strong>118</strong>
+              <span>Items collected</span>
+            </div>
+          </div>
+          <div class="event-card__progress">
+            <div class="event-card__progress-bar"><span style="width:72%"></span></div>
+            <span class="event-card__progress-label">72% of building participating</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="section final-cta" id="download">
+    <div class="final-cta__rings" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="container final-cta__inner">
+      <h2 class="h2 h2--light" data-reveal>Someone 2 km from you needs what you stopped using.</h2>
+      <p class="final-cta__sub" data-reveal>It takes 2 minutes to list. Zero rupees to give. One less thing taking up space in your home.</p>
+      <div class="hero__ctas hero__ctas--center" data-reveal>
+        <a href="https://play.google.com/store/apps/details?id=org.givelocally.app&pcampaignid=web_share" target="_blank" rel="noopener" class="btn btn--light btn--lg">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M3 12V3.6c0-.5.4-.9.9-.9.1 0 .3 0 .4.1l13 8.4c.5.3.5 1 0 1.3l-13 8.4c-.1.1-.3.1-.4.1-.5 0-.9-.4-.9-.9V12z"/></svg>
+          Download on Google Play
+        </a>
+        <a href="#" class="btn btn--ghost-light btn--lg">iOS: Notify Me</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <a href="#top" class="logo logo--footer">
+        <span class="logo__chip">
+          <img src="assets/givelocally-logo.png" alt="GiveLocally" class="logo__img">
+        </span>
+      </a>
+      <p>Your gift to your neighbourhood. Free to give, free to receive.</p>
+      <div class="footer__social" aria-label="Social links">
+        <a href="https://www.instagram.com/give.locally/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="24" height="24">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+            <circle cx="12" cy="12" r="4.5"/>
+            <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/>
+          </svg>
+        </a>
+        <a href="https://www.youtube.com/@give.locally" target="_blank" rel="noopener" aria-label="YouTube">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="24" height="24">
+            <path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29.1 29.1 0 0 0 1 12a29.1 29.1 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29.1 29.1 0 0 0 23 12a29.1 29.1 0 0 0-.46-5.58z"/>
+            <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="currentColor" stroke="none"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer__cols">
+      <div class="footer__col">
+        <h4>Company</h4>
+        <a href="#how-it-works">How it Works</a>
+        <a href="#categories">Categories</a>
+        <a href="#community">Create an Event</a>
+      </div>
+      <div class="footer__col">
+        <h4>Legal</h4>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <a href="tel:+910001234">+91 (000) 1234</a>
+        <a href="mailto:hello@givelocally.in">hello@givelocally.in</a>
+      </div>
+    </div>
+    <div class="footer__stores">
+      <a href="https://play.google.com/store/apps/details?id=org.givelocally.app&pcampaignid=web_share" target="_blank" rel="noopener" class="footer__store"><div class="footer__store-icon">▶</div>Get it on<br><strong>Google Play</strong></a>
+      <div class="footer__store footer__store--soon"><div class="footer__store-icon"></div>iOS<br><strong>Coming Soon</strong></div>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <p>© 2026 GiveLocally. Built for the community, by the community. Made in India.</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
