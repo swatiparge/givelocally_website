@@ -598,6 +598,21 @@ button{ font-family:inherit; cursor:pointer; border:none; background:none; }
   font-size: 1.02rem;
   max-width: 460px;
 }
+.community__event-types{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+.community__event-types span{
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  color: rgba(255,255,255,0.85);
+  font-size: 0.82rem;
+  font-family: var(--font-body);
+  padding: 6px 14px;
+  border-radius: 100px;
+}
 .community__footnote{
   margin-top: 14px;
   color: rgba(255,255,255,0.4);
