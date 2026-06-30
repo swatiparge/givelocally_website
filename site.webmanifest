@@ -1,0 +1,12 @@
+{
+  "name": "GiveLocally",
+  "short_name": "GiveLocally",
+  "description": "Donate furniture, clothes, food, toys and books to neighbours nearby. Free to give, free to browse.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F9F8",
+  "theme_color": "#4D9F3C",
+  "icons": [
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
